@@ -6,10 +6,10 @@ country: "au"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "-27.604051"     # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "151.930306"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "June 23-24, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "June 22-23, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00am - 5:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-06-23      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-06-24        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2020-06-22      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-06-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Francis Gacenga", "Adam Sparks", "Richard Young"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Anita Frederiks", "Michael Lane", "Mathieu Clerte", "Dag Evensberget", "Paul Melloy"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["eResearchServices@usq.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -32,18 +32,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 8< ============= For a workshop delete from here =============
 For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/forms/self-organised/">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
-
-{% comment %}
 8< ============================= until here ==================
 {% endcomment %}
 
