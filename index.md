@@ -129,9 +129,13 @@ This block displays the date and links to Google Calendar.
 </p>
 {% endif %}
 
+{% comment %}
 FEES
+{% endcomment %}
 
-A $20 fee applies for registration for this workshop to cover the cost of catering.  
+<p id="fees">
+  <strong>Fees:</strong> A $20 fee applies for registration for this workshop to cover the cost of catering.  
+</p>
 
 {% comment %}
 SPECIAL REQUIREMENTS
